@@ -116,6 +116,7 @@ export const jsDownload = (
   tempLink.style.display = 'none';
   tempLink.href = blobURL;
   tempLink.setAttribute('download', filename);
+  tempLink.classList.add("external");
 
   if (typeof tempLink.download === 'undefined') {
     tempLink.setAttribute('target', '_blank');
