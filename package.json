@@ -1,6 +1,6 @@
 {
-  "name": "react-use-downloader",
-  "version": "1.2.9",
+  "name": "f7-react-use-downloader",
+  "version": "1.2.10",
   "description": "Creates a download handler function and gives progress information (works with Framework7)",
   "author": "Deep Chakraborty",
   "license": "MIT",
@@ -39,8 +39,7 @@
     "lint": "eslint --fix src/**/*.ts",
     "release": "standard-version",
     "make-badges": "istanbul-badges-readme --logo=jest",
-    "prepublishOnly": "npm run build",
-    "postinstall": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "jest": {
     "coverageReporters": [
