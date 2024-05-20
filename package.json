@@ -39,7 +39,8 @@
     "lint": "eslint --fix src/**/*.ts",
     "release": "standard-version",
     "make-badges": "istanbul-badges-readme --logo=jest",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "postinstall": "npm run build"
   },
   "jest": {
     "coverageReporters": [
